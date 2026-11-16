@@ -1,3 +1,5 @@
+import operationsNetworkVisual from '../assets/images/operations_network_visual_1794852380936.jpg';
+
 export interface ExperienceItem {
   id: string;
   company: string;
@@ -106,7 +108,7 @@ export const portfolioData = {
         sublabel: 'Cross-Border Stakeholder Support',
       },
     ],
-    visualPath: '/src/assets/images/operations_network_visual_1794852380936.jpg',
+    visualPath: operationsNetworkVisual,
   },
   about: {
     paragraphs: [

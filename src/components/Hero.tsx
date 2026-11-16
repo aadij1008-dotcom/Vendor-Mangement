@@ -47,7 +47,7 @@ export function Hero() {
         <div className="grid grid-cols-1 items-stretch gap-10 lg:grid-cols-12 lg:gap-12">
           {/* Left Column: Primary Copy & Actions */}
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col justify-center lg:col-span-7"
@@ -137,7 +137,7 @@ export function Hero() {
 
           {/* Right Column: Global Operations Visual Anchor */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
+            initial={{ opacity: 1, scale: 0.99 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.55, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
             className="lg:col-span-5"
@@ -180,7 +180,7 @@ export function Hero() {
 
         {/* Full-Width 4-Column Core Highlights Row */}
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
+          initial={{ opacity: 1, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, delay: 0.16, ease: [0.16, 1, 0.3, 1] }}
           className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"

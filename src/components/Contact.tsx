@@ -83,7 +83,7 @@ export function Contact() {
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 1, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.05 }}
           transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
@@ -101,7 +101,7 @@ export function Contact() {
         <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
           {/* Left Column: Direct Contact Channels */}
           <motion.div
-            initial={{ opacity: 0, y: 18 }}
+            initial={{ opacity: 1, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
@@ -245,7 +245,7 @@ export function Contact() {
 
           {/* Right Column: Contact Form with Transparent Backend Notice */}
           <motion.div
-            initial={{ opacity: 0, y: 18 }}
+            initial={{ opacity: 1, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.45, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}

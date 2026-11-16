@@ -10,7 +10,7 @@ export function Experience() {
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 1, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.05 }}
           transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
@@ -37,7 +37,7 @@ export function Experience() {
             {portfolioData.experience.map((role, index) => (
               <motion.article
                 key={role.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 1, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.05 }}
                 transition={{
