@@ -28,7 +28,7 @@ export function ValueProposition() {
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
+          viewport={{ once: true, amount: 0.05 }}
           transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
           className="max-w-2xl"
         >
@@ -51,7 +51,7 @@ export function ValueProposition() {
                 key={item.id}
                 initial={{ opacity: 0, y: 18 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
+                viewport={{ once: true, amount: 0.05 }}
                 transition={{
                   duration: 0.4,
                   delay: idx * 0.06,

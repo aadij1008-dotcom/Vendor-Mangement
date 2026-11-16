@@ -51,7 +51,7 @@ export function Skills() {
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
             className="max-w-2xl"
           >
@@ -109,7 +109,7 @@ export function Skills() {
               key={category.id}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
+              viewport={{ once: true, amount: 0.05 }}
               transition={{
                 duration: 0.4,
                 delay: catIndex * 0.06,

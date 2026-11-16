@@ -85,7 +85,7 @@ export function Contact() {
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
+          viewport={{ once: true, amount: 0.05 }}
           transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
           className="max-w-2xl"
         >
@@ -103,7 +103,7 @@ export function Contact() {
           <motion.div
             initial={{ opacity: 0, y: 18 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col gap-5 lg:col-span-5"
           >
@@ -247,7 +247,7 @@ export function Contact() {
           <motion.div
             initial={{ opacity: 0, y: 18 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.45, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
             className="rounded-2xl border border-slate-800/85 bg-slate-900/55 p-6 backdrop-blur-md sm:p-8 lg:col-span-7"
           >
